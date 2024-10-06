@@ -3,13 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fita 2</title>
+    <title>Ex1</title>
 </head>
 <body>
 
     <h2>Login</h2>
 
-    <!-- Formulario de login -->
     <form method="POST">
         <label for="userName">User: </label><br>
         <input type="text" name="userName" required /><br><br>
@@ -45,3 +44,10 @@
 </body>
 </html>
 
+<!-- 
+    Quina creus que ha de ser la resposta si el login és incorrecte? Li informem si l'error està al nom d'usuari o a la password?
+
+    És millor no informar a l'usuari si l'error és al nom d'usuari o a la contrasenya. 
+    Proporcionar un missatge genèric com "Login incorrecte" evita donar pistes a possibles atacants sobre 
+    quins usuaris són vàlids i dificulta els atacs de força bruta.
+-->

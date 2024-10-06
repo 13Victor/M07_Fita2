@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fita 2</title>
+    <title>Ex3</title>
     <?php
        $color = $_POST['webcolor']; 
     ?>
@@ -11,14 +11,14 @@
 </head>
 <body>
 
-    <h2>Canvia el color del fons</h2>
+    <h1>SELECTOR DE SKINS</h1>
     <form method="POST">
         <select name="webcolor">
-            <option value="red.css">Red</option>
-            <option value="green.css">Green</option>
-            <option value="blue.css">Blue</option>
+            <option value="red.css">Vermell</option>
+            <option value="green.css">Verd</option>
+            <option value="blue.css">Blau</option>
         </select>
-        <input type="submit" value="Canvia!">
+        <input type="submit" value="Canvia">
     </form>
 
 </body>

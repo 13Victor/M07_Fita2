@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fita 2</title>
+    <title>Ex2 - Pg2</title>
 </head>
 <body>
-    <h1>Links</h1>
+    <h1>LINKS</h1>
     <?php
-        $number = $_POST["quantity"];
+        $number = $_POST["quantitat"];
 
         for ($i=1; $i <= $number; $i++) { 
             echo "<a href='ex22pagina3.php?comanda=$i'>Comanda $i</a><br>";
